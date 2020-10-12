@@ -1,0 +1,450 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body{
+  font-family: 'Poppins', sans-serif;
+}
+html{
+  scroll-behavior: smooth;
+}
+.common-btn{
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  background: transparent;
+  padding: 10px 20px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  transition: 0.3s ease-in-out;
+}
+input:focus,
+button:focus{
+  outline: none;
+}
+h5{
+  color: #313243;
+  font-size: 28px;
+  font-weight: 700;
+}
+h6{
+  color: #fff;
+  font-size: 35px;
+  font-weight: 700;
+}
+h4{
+  font-size: 35px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: capitalize;
+}
+/* header navbar section code start from here */
+header{
+  background: #daac00;
+  position: absolute;
+  width: 100%;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+}
+.sticky{
+  position: fixed;
+  width: 100%;
+  transition: 0.8s ease-in-out;
+}
+.nav-item{
+  margin-right: 20px;
+}
+.nav-link{
+  font-size: 25px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.8) !important;
+  text-transform: capitalize;
+  transition: 0.3s ease-in-out;
+}
+.nav-link:hover{
+  color: #fff !important;
+}
+.form-control{
+  background: #fcc302;
+  border: none;
+  border-radius: 0;
+  margin-right: 0 !important;
+}
+.form-control:focus{
+  outline: none;
+  box-shadow: none;
+  background: #fcc302;
+  border: none;
+}
+.form-control::placeholder{
+  color: rgba(255, 255, 255, 0.9) !important;
+  font-size: 20px;
+  font-weight: 400;
+}
+.form-inline .btn{
+  background: #00bec9;
+  color: #fff !important;
+  border-radius: 0;
+  border: none;
+  padding: .375rem 1.2rem;
+}
+.form-inline .btn:focus{
+  outline: none;
+  box-shadow: none;
+}
+.banner-section{
+  background: #fcc302;
+  padding: 60px 0;
+  height: 100vh;
+}
+.banner-section .col-md-5{
+  align-items: center;
+}
+.banner-section .row{
+  align-items: center;
+  height: 95vh;
+}
+.banner-section h1{
+  font-size: 66px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 0;
+}
+.banner-section p{
+  font-size: 28px;
+  font-weight: 400;
+  color: #fff;
+  margin: 20px 0 35px;
+}
+.contact-btn{
+  margin-right: 20px;
+}
+.contact-btn:hover,
+.service-btn:hover{
+  background: #00bec9;
+  border: 2px solid #00bec9;
+}
+/* header navbar section code end from here */
+
+/* service-section start */
+.service-section{
+  padding: 100px 0;
+}
+.service-section h2{
+  font-size: 50px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 0;
+}
+.service-section p{
+  font-size: 28px;
+  font-weight: 400;
+  color: #313243;
+  margin: 20px 0 35px;
+  text-align: justify;
+  width: 90%;
+}
+.service-section button{
+  background: #fcc302;
+}
+.service-section button:hover{
+  background: #fecf31;
+}
+.video-plugin{
+  position: relative;
+  display: inline-block;
+}
+.overlay{
+  background: rgba(252, 195, 3, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.video-plugin a{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-decoration: none;
+}
+.video-plugin a i{
+  font-size: 60px;
+  color: #fff;
+}
+.squre {
+    height: 200px;
+    width: 200px;
+    background: #fcc302;
+    position: absolute;
+    left: -2%;
+    bottom: -5%;
+    z-index: -1;
+}
+/* service-section end */
+
+/* treatment-section start */
+.treatment-section{
+  padding: 100px 0;
+  background: #fcc302;
+  text-align: center;
+}
+.common-heading h3{
+  font-size: 75px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+}
+.common-heading .common-p{
+  font-size: 33px;
+  font-weight: 400;
+  color: #fff;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 70px;
+  text-align: center;
+}
+.treatment-section .col-md-4 img{
+  margin-bottom: 35px;
+}
+.treatment-section h4{
+  font-size: 35px;
+  font-weight: 600;
+  color: #fff;
+}
+.treatment-section .col-md-4 p{
+  font-size: 25px;
+  font-weight: 400;
+  color: #fff;
+}
+/* treatment-section end */
+
+/* service-section2 start */
+.service-section2 .col-md-7{
+  text-align: right;
+}
+.service-section2 .col-md-7 p{
+  text-align: right;
+  float: right;
+}
+/* service-section2 end */
+
+/* dog-price-section start */
+.dog-price-section{
+  padding: 100px 0;
+  background: #fcc302;
+  text-align: center;
+}
+.price{
+  font-size: 40px;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  margin-top: 10px;
+  position: relative;
+}
+.buy-btn{
+  font-size: 25px;
+  font-weight: 600;
+  color: #fff;
+  background: #00bec9;
+  border: none;
+  outline: none;
+  padding: 10px 30px;
+  border-radius: 30px;
+  margin-top: 10px;
+}
+.buy-btn:hover{
+  background: #05adb6;
+  transition: 0.3s ease-in-out;
+}
+.price::after {
+    height: 3px;
+    width: 100px;
+    background: #fff;
+    position: absolute;
+    left: 21%;
+    top: 47%;
+    content: '';
+}
+.price span{
+  margin-left: 15px;
+}
+/* dog-price-section end */
+
+/* vetcare-team section start */
+.vetcare-team{
+  padding: 100px 0;
+}
+.vetcare-team h3{
+  color: #000;
+}
+.vetcare-team .common-p{
+  color: #313243;
+}
+.vetcare-team .col-md-4{
+  text-align: center;
+}
+.vetcare-team .col-md-4 h5{
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+.vetcare-team .col-md-4 p{
+  color: #313243;
+  font-size: 25px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.social-icon{
+  position: relative;
+}
+.social-icon ul{
+  list-style: none;
+  padding-left: 0;
+}
+.social-icon ul li{
+  display: inline-block;
+  margin: 0 5px;
+}
+.social-icon ul li a{
+  text-decoration: none;
+  display: inline;
+}
+.social-icon ul li a i{
+  font-size: 20px;
+  color: #fff;
+}
+.social-icon ul li a i::before{
+  background: #daac00;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  line-height: 40px;
+  display: inline-block;
+  transition: 0.3s ease-in-out;
+}
+.social-icon ul li:hover a i::before{
+  background: #fcc302;
+}
+/* vetcare-team section end */
+
+/* counter-section start */
+.counter-section{
+  background: linear-gradient(rgba(252, 195, 3, 0.5),rgba(252, 195, 3, 0.5)),url('../img/back.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 160px 0;
+  text-align: center;
+}
+.counter-section img{
+  margin-bottom: 30px;
+}
+.counter-section div{
+  color: #fff;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+/* counter-section end */
+
+/* post-section start */
+.post-section{
+  padding: 100px 0;
+}
+.post-section h3{
+  color: #000;
+}
+.post-section p{
+  color: #313243 !important;
+  margin-bottom: 0;
+  margin: 15px 0;
+}
+.single-post{
+  background: #fff;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+.post-content{
+  padding: 15px;
+}
+.single-post:hover{
+  box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.2);
+}
+.post-section .col-md-4 h5{
+  font-size: 25px;
+  font-weight: 600;
+  color: #000;
+}
+.post-section .col-md-4 span{
+  color: #00bec9;
+  font-size: 16px;
+  font-weight: 400;
+}
+.post-section .col-md-4 h6 a{
+  color: #00bec9;
+  font-size: 20px;
+  font-weight: 500;
+}
+/* post-section end */
+
+/* footer-section start */
+.footer-section{
+  background: #343434;
+  padding: 100px 0;
+}
+.footer-section ul{
+  list-style: none;
+  padding-left: 0;
+  margin-top: 15px;
+}
+.footer-section ul li{
+  margin-bottom: 10px;
+}
+.footer-section ul li a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+}
+.footer-section .col-md-6{
+  text-align: right;
+}
+.footer-section .col-md-6 p{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+.footer-section .col-md-6 input{
+  background: #daac00;
+  border: none;
+  padding: 10px 15px;
+  margin-right: 0;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  width: 65%;
+}
+.footer-section .col-md-6 button{
+  background: #00bec9;
+  border: none;
+  color: #fff;
+  padding: 10px 25px;
+  float: right;
+}
+.footer-section .social-icon{
+  text-align: center;
+  float: right;
+  margin-top: 30px;
+}
+.footer-section .social-icon ul li a i::before{
+  background: #fff;
+  color: #343434;
+}
+.footer-section .social-icon ul li:hover a i::before{
+  background: #daac00;
+}
+.footer-section .social-icon ul li:last-child{
+  margin-right: 0;
+}
+/* footer-section end */
