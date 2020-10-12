@@ -329,7 +329,7 @@ header{
 
 /* counter-section start */
 .counter-section{
-  background: linear-gradient(rgba(252, 195, 3, 0.5),rgba(252, 195, 3, 0.5)),url('../img/back.png');
+  background: linear-gradient(rgba(252, 195, 3, 0.6),rgba(252, 195, 3, 0.6)),url('../img/back.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -339,7 +339,7 @@ header{
 .counter-section img{
   margin-bottom: 30px;
 }
-.counter-section div{
+.counter-section h3{
   color: #fff;
   font-size: 40px;
   font-weight: 500;
@@ -366,6 +366,8 @@ header{
 }
 .post-content{
   padding: 15px;
+  border: 1px solid #d6d6d6;
+  border-top: 0;
 }
 .single-post:hover{
   box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.2);
